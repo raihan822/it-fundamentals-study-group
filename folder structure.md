@@ -69,3 +69,10 @@ requirements.txt
 
 ```bash
 ```python3 -m 2025_12_11_homework.src.daily_tasks.q1_sum```
+
+
+
+
+# Best File name convenstions for Python:
+Use snake_case:
+    All Python files (.py modules) should use lowercase letters, with words separated by underscores.
