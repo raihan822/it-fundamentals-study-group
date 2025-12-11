@@ -8,7 +8,7 @@ def convert_celsius_to_fahrenheit(celsius: float) -> float:
 
 if __name__ == "__main__":
     """instruction of use:
-    Enter celcius value in int or float number:
+    Enter celsius value in int or float number:
     i.e: 30
     get result in fahrenheit as: 86.0
     """
