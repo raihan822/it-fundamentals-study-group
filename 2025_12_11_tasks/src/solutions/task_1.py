@@ -1,3 +1,7 @@
+"""
+# Q1: Take two numbers as input and print their sum.
+"""
+
 def sum_numbers(*numbers: int) -> int:
     total: int = 0
     for number in numbers:
@@ -5,7 +9,7 @@ def sum_numbers(*numbers: int) -> int:
     return total
 
 if __name__ == "__main__":
-    """instructions:
+    """instruction of use:
     Enter numbers separated by _space_:
     i.e: 5 6 8 7
     get result of 5 6 8 7 as: 26
