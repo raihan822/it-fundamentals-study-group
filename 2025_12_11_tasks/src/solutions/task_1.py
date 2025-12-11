@@ -1,12 +1,18 @@
-def sum(*numbers: int) -> int:
+def sum_numbers(*numbers: int) -> int:
     total: int = 0
     for number in numbers:
         total += number
     return total
 
 if __name__ == "__main__":
+    """instructions:
+    Enter numbers separated by _space_:
+    i.e: 5 6 8 7
+    get result of 5 6 8 7 as: 26
+    """
+
     user_input: str = input("Enter two numbers: ")
     numbers: list = list(map(int, user_input.split(" ")))   # from map object to list conversion with list_comprehension
 
-    sum = sum(*numbers)
-    print(f"The total of the number {numbers} is = {sum}")
+    result: int = sum_numbers(*numbers)
+    print(f"The total of the numbers {numbers} is = {result}")
