@@ -72,7 +72,19 @@ requirements.txt
 
 
 
-
-# Best File name convenstions for Python:
+=======================================================================================================
+# Best File & Folder name convenstions for Python:
 Use snake_case:
-    All Python files (.py modules) should use lowercase letters, with words separated by underscores.
+    All Python files (.py modules) also Folders should use lowercase letters, with words separated by underscores.
+
+# Variable names:
+lower snake_case for general variables,
+UPPER SNAKE_CASE for constant varibales,
+_underscr_prefixed style for private/internal usecase variables: Prefixing a variable with a single underscore (e.g., _internal_cache) suggests it's for internal use only within that module/class.
+single latter for temporary variables (for i in list:...)
+
+# function names:
+lower snake_case with Action verbs
+
+# Class names:
+CapitalCase (PascalCase) for ClassNames. no snake_style here!
