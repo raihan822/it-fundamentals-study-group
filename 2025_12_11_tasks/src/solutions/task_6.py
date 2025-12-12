@@ -1,13 +1,15 @@
 """
-# Personal Information Card (Python): build a program that:
-1️⃣Asks the user:
-    Name
-    Age
-    Favorite color
-    Hobby
+# **Task_6: Personal Information Card (Python)**
 
-2️⃣ Stores them in variables
-3️⃣ Prints them in a formatted way:
+**Requirements:**
+1. Ask the user:
+
+   * Name
+   * Age
+   * Favorite color
+   * Hobby
+2. Store them in variables
+3. Print in this format:
 
 #----- Personal Info Card -----
 Name:
