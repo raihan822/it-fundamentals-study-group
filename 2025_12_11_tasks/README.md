@@ -20,7 +20,7 @@ Features:
 
 
 # Personal Information Card (Python): build a program that:
-1️⃣ Asks the user:
+1️⃣Asks the user:
     Name
     Age
     Favorite color
