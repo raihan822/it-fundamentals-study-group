@@ -88,3 +88,14 @@ lower snake_case with Action verbs
 
 # Class names:
 CapitalCase (PascalCase) for ClassNames. no snake_style here!
+
+
+=================================================================
+# Python dosent require new keyword to make an object of a py Class.
+    Class ExampleClass():
+        it has a __intit__(self,a,b...) that is the constructor, which uses the Class's name as its own name.
+and later you make object like:
+    x = ExampleClass(a,b...) # has no new keyword like js.
+    or, x = ExampleClass()
+        y = x.a     #etc..
+    del x
