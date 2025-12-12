@@ -82,5 +82,3 @@ The syntax `is not` was deliberately chosen to be:
 It provides a clear and direct way to express **the negation of object identity**.
 
 ---
-
-If you'd like, I can also format this as a PDF, add diagrams, or turn it into a teaching handout!
